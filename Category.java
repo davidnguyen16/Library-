@@ -28,14 +28,4 @@ public class Category {
 
     // Hiển thị thông tin (đệ quy, đúng format bạn yêu cầu)
 
-    @Override
-    public String toString() {
-        return "Category {" +
-                "ID: " + categoryID +
-                ", Name: " + name +
-                ", Description: " + description +
-                ", Sub Categories: " + subCategories.size() +
-                '}';
-    }
-}
 
